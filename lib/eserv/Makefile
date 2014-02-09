@@ -11,7 +11,6 @@ CFLAGS = -Os -Wall -Wextra \
 	-std=gnu99 \
 	-I../../include/eserv
 
-CFLAGS += -m32
 
 LDFLAGS = -levent_pthreads -levent -lpthread -lcrypt
 
