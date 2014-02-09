@@ -18,7 +18,7 @@ extern "C" {
 #define SERVER "eServ/1.1"
 
 /* default listen port */
-#define  PORT			80
+#define  PORT			8080
 
 /* the max thread number */
 #define EX_MAX_THREADS 		10
