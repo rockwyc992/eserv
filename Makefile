@@ -12,7 +12,6 @@ CFLAGS = -Os -Wextra \
 	 -Iinclude
 # -D NDEBUG
 
-CFLAGS += -m32
 LIBS = -Llib/eserv
 LDFLAGS = -leserv -levent_pthreads -levent -lpthread -lcrypt
 
